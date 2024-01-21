@@ -1,0 +1,162 @@
+/* styles.css */
+.form-container {
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  }
+  /* YourComponent.css */
+
+.flex-container {
+    display: flex;
+    flex-wrap: wrap;
+  }
+
+  .large-screen-popup {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    width: 80%;
+    max-width: 800px;
+    background-color: #fff;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  }
+.custom-calendar {
+    /* Custom styles for the entire calendar */
+    border: 2px solid #3498db;
+  }
+  
+  .sunday-tile {
+    /* Custom styles for Sundays in the month view */
+    background-color: white;
+    color: black;
+  }
+  .other-tile {
+    /* Custom styles for Sundays in the month view */
+    background-color: white;
+    color: black;
+  }
+  .other-tile :hover{
+    color: #6842ef;
+    
+  }
+  
+.react-calendar__month-view__weekdays {
+    /* Custom styles for weekdays */
+    display: flex;
+    justify-content: space-around;
+    background-color: #ecf0f1;
+    
+    padding: 5px;
+  }
+  .react-calendar__month-view__weekdays abbr {
+    /* Remove underline for weekdays */
+    text-decoration: none;
+  }
+  :root {
+    --calendar-primary-color: #6842ef;
+    --calendar-secondary-color: #e74c3c;
+  }
+  .react-calendar__navigation {
+    /* Custom styles for the navigation buttons */
+    display: flex;
+    justify-content: space-between;
+    padding: 10px;
+    background-color: #ffffff;
+    color: #fff;
+  }
+  
+  .react-calendar__navigation__label {
+    /* Custom styles for the navigation label */
+    font-size: 16px;
+  }
+  
+  .flex-item {
+    flex: 1;
+    flex-direction: column;
+    margin: 10px;
+  }
+  
+  h2 {
+    text-align: center;
+  }
+  
+  form {
+    display: flex;
+    flex-direction: column;
+  }
+  
+  label {
+    margin: 6px 0;
+  }
+  
+  input,
+  textarea {
+    width: 90%;
+    padding: 8px;
+    margin-top: 5px;
+    box-sizing: border-box;
+  }
+  
+  button {
+    background-color: #6842ef;
+    color: white;
+    padding: 10px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+  }
+  
+  button:hover {
+    background-color: #45a049;
+  }
+  
+.react-calendar__month-view__weekdays {
+  /* Custom styles for weekdays */
+  display: flex;
+  justify-content: space-around;
+  background-color:#ffffff;
+  padding: 5px;
+}
+
+.react-calendar__month-view__weekdays abbr {
+  /* Remove underline for weekdays */
+  text-decoration: none;
+}
+
+.react-calendar__navigation {
+  /* Custom styles for the navigation buttons container */
+  display: flex;
+  justify-content: space-between;
+  padding: 10px;
+  background-color: #ffffff;
+  color: #000;
+}
+
+.react-calendar__navigation__label {
+  /* Custom styles for the navigation label (month and year buttons) */
+  font-size: 16px;
+  padding: 5px 10px; /* Adjust the padding here to control the width */
+  cursor: pointer;
+  background-color: #fff;
+  color: #000;
+  border: none;
+  border-radius: 5px;
+}
+
+.react-calendar__navigation__label:hover {
+  /* Custom styles for the navigation label on hover */
+  background-color: #fff;
+}
+
+.react-calendar__navigation {
+    /* Custom styles for the navigation buttons container */
+    display: flex;
+    justify-content: space-between;
+    padding: 10px;
+    background-color: #fff;
+    color: #000;
+  }
