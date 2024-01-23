@@ -45,7 +45,7 @@ return (
     <Slider {...settings}>
       {images.map((image, index) => (
         <div key={index}>
-          <img src={image} alt={`Demo ${index + 1}`} style={{ height: '350px', width: '100%' }} />
+          <img src={image} alt={`Demo ${index + 1}`} style={{ height: '350px', width: '100%',objectFit:'contain' }}  />
         </div>
       ))}
     </Slider>
@@ -56,11 +56,11 @@ return (
 
 const Profile = ({ screenHeight }) => {
   return (
-    <div style={{ height: screenHeight, width: '100%', alignItems: "center" }}>
-      <div style={{ display: 'flex',width:'90%', flexDirection: 'row', justifyContent: 'space-around', alignItems: 'center', paddingTop: '5%', width: '100%' }}>
+    <div style={{  width: '100%', alignItems: "center" }}>
+      <div style={{ display: 'flex',width:'90%', flexDirection: 'row', justifyContent: 'space-around',alignSelf:"center", alignItems: 'center', paddingTop: '5%', width: '100%' }}>
         <div style={{ display: 'flex',flex:1, flexDirection: 'column',alignItems:'center' }}>
           <text style={{ color: colors.primary, fontSize: 40, fontWeight: 'bold' }}>Hi, I'm Zannah</text>
-          <text style={{ color: "black", fontSize: 20, maxWidth: 450, color: "#676767", marginTop: 20 }} >Welcome! 🚀 I'm Consultant, specializing in XYZ. Excited to get things rolling? Hit 'Book Now,' peruse my schedule, grab a slot, make a seamless payment – and that's it! Let’s connect and bring your vision to life. See you soon!</text>
+          <text style={{ color: "black", fontSize: 24, maxWidth: 450, color: "#676767", marginTop: 20 }} >Welcome! 🚀 I'm Consultant, specializing in XYZ. Excited to get things rolling? Hit 'Book Now,' peruse my schedule, grab a slot, make a seamless payment – and that's it! Let’s connect and bring your vision to life. See you soon!</text>
           <div style={{ display: 'flex', flexDirection: 'row', justifyContent: 'space-around', marginTop: 20, width: '100%' }}>
             <div onClick={null} style={{ paddingTop: 5, paddingBottom: 5, paddingLeft: 10, paddingRight: 10, backgroundColor: colors.primary }}><text style={{ color: 'white', fontSize: 24, fontWeight: 'bold' }}>Book Now</text></div>
             <div onClick={null} style={{ paddingTop: 5, paddingBottom: 5, paddingLeft: 10, paddingRight: 10, borderColor: colors.primary, borderStyle: 'solid', borderWidth: 1 }}><text style={{ color: colors.primary, fontSize: 24, fontWeight: 'bold' }}>More About me...</text></div>
@@ -70,12 +70,12 @@ const Profile = ({ screenHeight }) => {
         <ImageCarousel/>
        
       </div>
-      <div style={{ display: 'flex', flexDirection: 'row', alignSelf: 'center', width: "100%", alignItems: 'center', justifyContent: 'center', marginTop: 20 }}>
-        <img style={{ height: 30, width: 30, marginRight: 20, backgroundColor: "blue" }} />
+      <div style={{ display: 'flex', flexDirection: 'row', alignSelf: 'center', width: "100%",paddingBottom:20, alignItems: 'center', justifyContent: 'center', marginTop: 20 }}>
+        <img style={{ height: 30, width: 30, marginRight: 20, backgroundColor: "white" }} />
 
-        <img style={{ height: 30, width: 30, marginRight: 20, backgroundColor: "blue" }} />
+        <img style={{ height: 30, width: 30, marginRight: 20, backgroundColor: "white" }} />
 
-        <img style={{ height: 30, width: 30, marginEnd: 20, backgroundColor: "blue" }} />
+        <img style={{ height: 30, width: 30, marginEnd: 20, backgroundColor: "white" }} />
       </div>
 
     </div>
