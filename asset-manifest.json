@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/consult_Portofilio/static/css/main.2ac3df3b.css",
-    "main.js": "/consult_Portofilio/static/js/main.ba6261f9.js",
+    "main.js": "/consult_Portofilio/static/js/main.69dce392.js",
     "static/js/787.636fa0bb.chunk.js": "/consult_Portofilio/static/js/787.636fa0bb.chunk.js",
     "static/media/OIG14.jpeg": "/consult_Portofilio/static/media/OIG14.5259f1626934263fbd41.jpeg",
     "static/media/OIG9.jpeg": "/consult_Portofilio/static/media/OIG9.ac23259801ee12779e43.jpeg",
@@ -31,11 +31,11 @@
     "static/media/slick.woff": "/consult_Portofilio/static/media/slick.295183786cd8a1389865.woff",
     "index.html": "/consult_Portofilio/index.html",
     "main.2ac3df3b.css.map": "/consult_Portofilio/static/css/main.2ac3df3b.css.map",
-    "main.ba6261f9.js.map": "/consult_Portofilio/static/js/main.ba6261f9.js.map",
+    "main.69dce392.js.map": "/consult_Portofilio/static/js/main.69dce392.js.map",
     "787.636fa0bb.chunk.js.map": "/consult_Portofilio/static/js/787.636fa0bb.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.2ac3df3b.css",
-    "static/js/main.ba6261f9.js"
+    "static/js/main.69dce392.js"
   ]
 }
