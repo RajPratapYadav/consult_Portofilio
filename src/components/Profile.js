@@ -216,10 +216,10 @@ export const ContactUs = ({ }) => {
         style={logoStyle}
       />
       <div style={{}}>
-        <div style={companyNameStyle}>Company Name</div>
-        <div style={textCommonStyle}>abc@gmail.com</div>
-        <div style={textCommonStyle}>+919876543216</div>
-        <div style={textCommonStyle}>abc, xyz hhh aka, 110033</div>
+        <div style={companyNameStyle}>ExpertEConsult</div>
+        <div style={textCommonStyle}>booking@experteconsult.com</div>
+        <div style={textCommonStyle}>+919000004928</div>
+        <div style={textCommonStyle}>Plot no 153 , rajender reddy nagar colony,Hyderabad 500050</div>
       </div>
     </div>
     <div style={{ flexDirection: 'row', width: '100%', justifyContent: 'space-around', display: 'flex', paddingTop: 20, marginBottom: 20, backgroundColor: '#ffffff' }}>
