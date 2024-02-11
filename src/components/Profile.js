@@ -56,7 +56,7 @@ return (
 
 const Profile = ({ screenHeight }) => {
   return (
-    <div style={{  width: '100%', alignItems: "center" }}>
+    <div style={{ display: 'flex',flex:1, flexDirection: 'column', width: '100%', alignItems: "center" }}>
       <div style={{ display: 'flex',width:'90%', flexDirection: 'row', justifyContent: 'space-around',alignSelf:"center", alignItems: 'center', paddingTop: '5%', width: '100%' }}>
         <div style={{ display: 'flex',flex:1, flexDirection: 'column',alignItems:'center' }}>
           <text style={{ color: colors.primary, fontSize: 40, fontWeight: 'bold' }}>Hi, I'm Zannah</text>
